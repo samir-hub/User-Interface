@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+header nav a {
+	margin: 20px;
+
+}
+
+header .logo {
+	margin-left: 60px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+}
+
+.cta-text {
+	font-size: 70px;
+	margin: 111px;
+}
+
+.cta .cta-text button {
+	margin-left: 48px;
+    border: 1px solid;
+    padding: 10px;
+    width: 160px;
+	font-size: 15px;
+	background: white;
+}
+
+.main-content {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.text-content {
+	display: inline-block;
+	width: 40%;
+}
+
+
+footer {
+	text-align: center; 
+}
+
+.midpic {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content .text-content {
+	width: 20%;
+	margin: 40px;
+}
