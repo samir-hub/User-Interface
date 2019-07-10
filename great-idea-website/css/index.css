@@ -77,7 +77,8 @@ header nav {
 
 header nav a {
 	margin: 20px;
-
+	text-decoration: none;
+	color: gray;
 }
 
 header .logo {
@@ -91,10 +92,11 @@ header .logo {
 .cta-text {
 	font-size: 70px;
 	margin: 111px;
+	text-align: center;
 }
 
 .cta .cta-text button {
-	margin-left: 48px;
+	margin-left: 5px;
     border: 1px solid;
     padding: 10px;
     width: 160px;
@@ -105,6 +107,7 @@ header .logo {
 .main-content {
 	border-top: solid 1px black;
 	border-bottom: solid 1px black;
+	padding-top: 20px;
 }
 
 .text-content {
@@ -115,18 +118,26 @@ header .logo {
 
 footer {
 	text-align: center; 
+	margin: 40px;
+	font-size: 14px;
 }
 
 .midpic {
 	display: block;
 	margin: 0 auto;
-	width: 80%;
-}
-.middle-img {
-	width: 100%;
+	width: 50%;
 }
 
 .bottom-content .text-content {
 	width: 20%;
+	margin: 55px;
+}
+
+.top-content .text-content {
 	margin: 40px;
+}
+
+.contact {
+	margin-top: 20px; 
+	margin-bottom: 40px;
 }
